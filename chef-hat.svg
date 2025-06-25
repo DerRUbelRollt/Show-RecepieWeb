@@ -1,0 +1,19 @@
+<!-- public/chef-hat.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .wiggle {
+      animation: wiggle 1.5s infinite ease-in-out;
+      transform-origin: center;
+    }
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(3deg); }
+      75% { transform: rotate(-3deg); }
+    }
+  </style>
+  <g class="wiggle">
+    <path fill="#fff" d="M22 16a10 10 0 0120 0c6 0 10 4 10 10s-4 10-10 10H22c-6 0-10-4-10-10s4-10 10-10z"></path>
+    <rect x="22" y="36" width="20" height="8" rx="2" fill="#ccc"></rect>
+    <rect x="24" y="44" width="16" height="12" rx="2" fill="#999"></rect>
+  </g>
+</svg>
